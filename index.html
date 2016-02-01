@@ -2,9 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title></title>
+  <title>start GitHub</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <style type="text/css">
+        body{
+            margin:0;
+            padding:0;
+            background-color: #F5F5F5;
+            font-family:微软雅黑,宋体;
+        }
+        .main {
+            margin: 0 auto;
+            width:1000px;
+            height: 100%;
+            border: 1px solid #EEE;
+            background-color: #FFF;
+        }
+        .div{
+            margin:20px;
+            width:960px;
+        }
+    </style>
 </head>
 <body>
+<div class="main">
+<div class="div">
+<h2>start GitHub</h2><hr>
 <h2>1. 创建仓库repository</h2>
 创建仓库create repository
 ->生成github pages
@@ -15,7 +38,7 @@ Settings->Launch automatic page generator
 <h4>.md（README.md）文件支持</h4>
 编辑.md文件->IDE安装markdown插件<br />
 注意：默认是用gbk，需要修改成utf8格式，否则中文乱码。<br />
-->更多markdown语法(http://www.baidu.com/s?wd=markdown&ie=UTF-8)<br />
+->更多<a href="http://www.baidu.com/s?wd=markdown&ie=UTF-8" target="_blank">markdown语法</a><br />
 <br />
 <h4>.ignore</h4>
 Git使用.gitignore文件来决定哪些文件或目录被忽略<br />
@@ -28,10 +51,12 @@ config.php<br />
 <h2>5. 修改文件后保存更新</h2>
 add->commit->push<br />
 = commit amd push<br />
-<h2>利用GitHub部署静态页面</h2>
+<h2>如何利用GitHub部署静态页面</h2>
 创建仓库->生成github pages<br />
 Settings->Launch automatic page generator->continue<br />
 会得到"http://lidalin.github.io/***",就可以访问。<br />
 默认分支：gh-pages，而不是master。<br />
+</div>
+</div>
 </body>
 </html>
